@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #19A2AE;
+}
+
+main {
+  max-width: 326px;
+  background-image: url(../images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 140px;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+main .content-wrapper {
+  width: 50%;
+  margin: 92px 96px 0 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .content-wrapper img {
+  height: 86px;
+  width: 86px;
+  display: block;
+  border: 5px solid #FFFFFF;
+  border-radius: 50%;
+  background-color: white;
+}
+main .content-wrapper .name-and-age {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .content-wrapper .name-and-age h1 {
+  margin: 24px 0 13px 0;
+  color: #2E3349;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  text-align: center;
+}
+main .content-wrapper .name-and-age h2 {
+  margin: 24px 0 13px 0;
+  color: #6B7082;
+  padding-left: 8.5px;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  text-align: center;
+}
+main .content-wrapper h3 {
+  margin: 0;
+  color: #6B7082;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+  text-align: center;
+}
+main hr {
+  margin: 24px 0;
+  background: #E8E9EC;
+  height: 1px;
+  border: none;
+}
+main .data-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 54px 24px 47px;
+}
+main .data-wrapper .data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .data-wrapper .data h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  text-align: center;
+  color: #2E3349;
+}
+main .data-wrapper .data h4 {
+  margin: 9px 0 0 0;
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #6B7082;
+}
+
+@media (min-width: 400px) {
+  main {
+    min-width: 350px;
+  }
+}/*# sourceMappingURL=styles.css.map */
